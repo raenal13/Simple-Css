@@ -1,0 +1,78 @@
+body {
+  background-image: url("../images/laptop.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+  background-size: 1600px 610px;
+}
+#myHeader {
+  padding: 15px;
+  text-align: right;
+}
+
+a:link,
+a:visited {
+  /* background-color: #f44336; */
+  color: rgb(255, 255, 255);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: rgba(139, 126, 126, 0.692);
+}
+
+.para-text {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: 300px auto 20px auto;
+}
+.para-text2 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.leftcolumn {
+  float: left;
+  width: 45%;
+  padding-top: 200px;
+  padding-left: 30px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 45%;
+  padding-top: 200px;
+  padding-right: 30px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tombol-lengkap {
+  background-color: rgb(52, 179, 126);
+}
+
+footer {
+  clear: both;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
